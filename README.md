@@ -8,13 +8,13 @@ Support for Blender 4.2 + (Only Extensions)
 
 - Zip and install selected path automatically.
 - Recent Addons list interface. Once you succesfully process an add-on it will show up in Recent Addons list, from there you can zip and reinstall it again with just 1 click.
------------
+
 ## Why I created AAU?
 
 It had been a long time since I asked myself: How the hell professional studios render the scenes? Of course it's all about layers. The more splitted the objects, the more control you will have. Even knowing how to render different objects in layers with Blender, It was very hard to do it and get a decent composition later. What I learned is that to make it work properly, we must render almost each object on the scene in different layers. 
 
 Well, it is not true. We can tweak some stuff, to get something similar to that professional renders, so I decided to create TLR.
------------
+
 ## How to use it?
 
 1. Press "Select source path" button and select your add-on's path. 
@@ -25,7 +25,7 @@ Well, it is not true. We can tweak some stuff, to get something similar to that 
 6. "Recent addons" will show up after closing and opening Blender again, so you can start the process again without selecting source path again, with just 1 click.
 
 Thats all!
------------
+
 ## How to install this addon:
 
 - Download the zip file.
