@@ -3,7 +3,7 @@
 Automatically zip selected addon source path and reinstall it in just 1 click.
 
 Select your add-on source folder path, and press "Update addon" button. It will zip and install it automatically.
------------
+
 Support for Blender 4.2 + (Only Extensions)
 
 - Zip and install selected path automatically.
