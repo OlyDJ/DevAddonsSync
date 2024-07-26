@@ -11,9 +11,8 @@ Support for Blender 4.2 + (Only Extensions)
 
 ## Why I created AAU?
 
-It had been a long time since I asked myself: How the hell professional studios render the scenes? Of course it's all about layers. The more splitted the objects, the more control you will have. Even knowing how to render different objects in layers with Blender, It was very hard to do it and get a decent composition later. What I learned is that to make it work properly, we must render almost each object on the scene in different layers. 
-
-Well, it is not true. We can tweak some stuff, to get something similar to that professional renders, so I decided to create TLR.
+For Blender Add-ons developers, the task to test each code change is kind of tedious.
+After saving modified files, the folder must be compressed to a ZIP file, and then reinstalled in Blender. While now (Blender 4.2) we can drag and drop the zip into Blender directly, for a developer is a waste of time.
 
 ## How to use it?
 
