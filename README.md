@@ -1,4 +1,4 @@
-Auto Addon Updater - Blender Add-on
+# Auto Addon Updater - Blender Add-on
 
 Automatically zip selected addon source path and reinstall it in just 1 click.
 
