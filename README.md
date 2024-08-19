@@ -1,38 +1,44 @@
-# Auto Addon Updater - Blender Add-on
+# Dev Addons Synchronizer
 
-Automatically zip selected addon source path and reinstall it in just 1 click.
+Synchronize your installed add-ons with a single click or by pressing OSKey+U.
 
-Select your add-on source folder path, and press "Update addon" button. It will zip and install it automatically.
+DevAddonsSync helps you with the tedious task of testing every change you make to your extensions' source code, either by editing the installed add-ons directly, or with the source code in any other location (local or network).
 
-Support for Blender 4.2 + (Only Extensions)
+Select the add-on you want to be "Default" from the list, edit the source code (with Text Editor or any other program) and press OSKey+U in View3D. The add-on is automatically installed, and a ZIP file is created ready for sharing (if "Create ZIP file" is enabled).
 
-- Zip and install selected path automatically.
-- Recent Addons list interface. Once you succesfully process an add-on it will show up in Recent Addons list, from there you can zip and reinstall it again with just 1 click.
+## Features:
 
-## Why I created AAU?
+### List of installed add-ons
+- Option to show only user add-ons.
+- Option to open the .py file of the selected add-on in Text Editor.
+- Option to open the directory of the selected add-on.
+- Option to create a ZIP file of the selected add-on.
+- Option to sync the selected add-on.
+- Option to make the selected add-on "Default" (pressing OSKey+Alt+U in 3DView syncs it automatically)
 
-For Blender Add-ons developers, the task to test each code change is kind of tedious.
-After saving modified files, the folder must be compressed to a ZIP file, and then reinstalled in Blender. While now (Blender 4.2) we can drag and drop the zip into Blender directly, for a developer is a waste of time.
+### Select the path to your add-on
+- Option to create a ZIP file from the selected path.
+- Option to verify the ZIP file by installing it.
+- Option to install the add-on from the selected path.
+- Option to uninstall before installing.
+- Once an add-on is installed, it is added to the list of recent add-ons.
 
-## How to use it?
+### List of recent add-ons
+- Option to open the .py file of the selected add-on in Text Editor.
+- Option to open the directory of the selected add-on.
+- Option to create a ZIP file of the selected add-on.
+- Option to install the selected add-on.
+- Option to uninstall before installing the selected add-on.
+- Option to make the selected add-on "Default" (pressing OSKey+U in 3DView installs it automatically)
+- Option to remove the selected add-on from the "Recent" list.
+- Option to create a backup of the "Recent" list.
+- Option to load a backup of the "Recent" list.
 
-1. Press "Select source path" button and select your add-on's path. 
-2. A Info section appears, with the add-on name, the selected source path and the target zip file.
-3. You can change the target file, by default it will create the zip in the same folder where Source path folder is in.
-4. Press "Update selected addon" button to start the process.
-5. In "Recent addons" list a new item is created with all the info. Just select the add-on you want, and press "Update addon" button to zip and reinstall it again.
-6. "Recent addons" will show up after closing and opening Blender again, so you can start the process again without selecting source path again, with just 1 click.
+### DevAddonsSync Preferences
+- Option to select the location of the "Recent" list.
 
-Thats all!
-
-## How to install this addon:
-
-- Download the zip file.
-- Open Blender and go to Edit - Preferences
-- Go to Get Extensions Tab.
-- Click the arrow next to "Repositories", press "Install from disk" button, and search for the downloaded zip file.
-- Select it and press Install
-
+## Why I created DAS?
+For Blender Add-ons developers, the task to test each code change is kind of tedious. After saving modified files, the folder must be compressed to a ZIP file, and then reinstalled in Blender. While now (Blender 4.2) we can drag and drop the zip into Blender directly, for a developer it is a waste of time. Developers tend to create scripts to automate that process, but DevAddonsSync will speed up your workflow like never before.
 Enjoy it!!!
 
 
